@@ -38,4 +38,7 @@ public abstract class Alimento {
 		return fechaCompra;
 	}
 	
+	public abstract void setCantidad(String cantidad);
+	public abstract String getCantidad();
+	
 }

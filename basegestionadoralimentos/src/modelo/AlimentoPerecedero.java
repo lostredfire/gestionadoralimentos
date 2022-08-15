@@ -12,11 +12,11 @@ public class AlimentoPerecedero extends Alimento {
 	public void setFechaCaducidad(Date fechaCaducidad) {
 		this.fechaCaducidad = fechaCaducidad;
 	}
-	public int getCantidad() {
-		return cantidad;
+	public String getCantidad() {
+		return Integer.toString(cantidad);
 	}
-	public void setCantidad(int cantidad) {
-		this.cantidad = cantidad;
+	public void setCantidad(String cantidad) {
+		this.cantidad = Integer.parseInt(cantidad);
 	}
 	
 }
