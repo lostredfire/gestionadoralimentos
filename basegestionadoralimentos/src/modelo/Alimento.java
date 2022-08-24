@@ -10,6 +10,14 @@ public abstract class Alimento {
 	private Date fechaCompra;
 	private float precio;
 	
+	public Alimento ( String nombre, String marca, String version, Date fechaCompra, float precio) {
+		this.nombre = nombre;
+		this.marca = marca;
+		this.version = version;
+		this.fechaCompra = fechaCompra;
+		this.precio = precio;
+	}
+	
 	public String getNombre() {
 		return nombre;
 	}
